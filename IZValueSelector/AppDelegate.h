@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  IZValueSelector
+//  BCSlider
 //
-//  Created by Iman Zarrabian on 02/11/12.
-//  Copyright (c) 2012 Iman Zarrabian. All rights reserved.
+//  Created by Nicole Zhu on 08/03/14.
+//  Copyright (c) 2014 Nicole Zhu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
