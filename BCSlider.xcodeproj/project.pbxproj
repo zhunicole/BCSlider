@@ -105,8 +105,7 @@
 				0F483A9516440F1C003CAF09 /* selectorRect@2x.png */,
 				0F483A701643E2FD003CAF09 /* Supporting Files */,
 			);
-			name = BCSlider;
-			path = IZValueSelector;
+			path = BCSlider;
 			sourceTree = "<group>";
 		};
 		0F483A701643E2FD003CAF09 /* Supporting Files */ = {
@@ -282,8 +281,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IZValueSelector/BCSlider-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/IZValueSelector/BCSlider-Info.plist";
+				GCC_PREFIX_HEADER = "BCSlider/BCSlider-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BCSlider/BCSlider-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = BCSlider;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -295,8 +294,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IZValueSelector/BCSlider-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/IZValueSelector/BCSlider-Info.plist";
+				GCC_PREFIX_HEADER = "BCSlider/BCSlider-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BCSlider/BCSlider-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = BCSlider;
 				TARGETED_DEVICE_FAMILY = 2;
