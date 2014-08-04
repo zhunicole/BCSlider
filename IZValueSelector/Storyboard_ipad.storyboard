@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="W8d-uo-z1H">
             <objects>
-                <viewController id="wXE-bV-nyo" sceneMemberID="viewController">
+                <viewController id="wXE-bV-nyo" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ztR-xL-OVQ"/>
                         <viewControllerLayoutGuide type="bottom" id="REl-Ll-4hK"/>
@@ -27,6 +27,9 @@
                                 <state key="normal" title="Set to 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setToOne:" destination="wXE-bV-nyo" eventType="touchUpInside" id="ilu-Ib-4wh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xii-9l-cHj">
                                 <rect key="frame" x="164" y="0.0" width="73" height="44"/>
@@ -34,6 +37,9 @@
                                 <state key="normal" title="Set to 2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setToTwo:" destination="wXE-bV-nyo" eventType="touchUpInside" id="w5m-gP-d9g"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pGx-Qv-bMP">
                                 <rect key="frame" x="183" y="85" width="215" height="440"/>
@@ -43,6 +49,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="selectorHorizontal" destination="RGa-4o-gBv" id="f0g-lZ-3N6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m5f-qd-OCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

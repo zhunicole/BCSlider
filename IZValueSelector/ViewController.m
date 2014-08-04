@@ -10,8 +10,8 @@
 
 @interface ViewController ()
 @property (nonatomic,assign) BOOL wantHorizontal;
-//- (IBAction)setToOne:(id)sender;
-//- (IBAction)setToTwo:(id)sender;
+- (IBAction)setToOne:(id)sender;
+- (IBAction)setToTwo:(id)sender;
 @end
 
 @implementation ViewController
